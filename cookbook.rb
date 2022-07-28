@@ -1,6 +1,6 @@
 puts "Bem vindo ao CookBook, sua rede social de receitas"
 
 puts "Digite o nome da receita: "
-gets
+nome = gets.chomp()
 
-puts "Receita cadastrada com sucesso!"
+puts "Receita #{nome} cadastrada com sucesso!"
